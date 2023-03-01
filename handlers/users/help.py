@@ -1,6 +1,6 @@
 from aiogram import types
 from aiogram.dispatcher.filters.builtin import CommandHelp
-from bot_template.states.personalData import PersonalData
+from states.personalData import PersonalData
 
 from loader import dp
 

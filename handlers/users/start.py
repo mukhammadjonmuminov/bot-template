@@ -1,6 +1,6 @@
 from aiogram import types
 from aiogram.dispatcher.filters.builtin import CommandStart
-from bot_template.keyboards.default.start import menuStart
+from keyboards.default.start import menuStart
 
 from loader import dp
 

@@ -3,7 +3,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Command
 
 from loader import dp
-from bot_template.states.personalData import PersonalData
+from states.personalData import PersonalData
 
 @dp.message_handler(Command("anketa"))
 async def enter_test(message: types.Message):

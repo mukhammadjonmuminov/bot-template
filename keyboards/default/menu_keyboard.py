@@ -1,11 +1,16 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
-
-menu = ReplyKeyboardMarkup(
+speciality = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text="Python"),
-            KeyboardButton(text="Telegram bot"),
+            KeyboardButton(text="Intensive Kurslar"),
         ],
+        [
+            KeyboardButton(text="Mutaxasislik Kurslar"),
+        ],
+        [
+            KeyboardButton(text="Bootcamp Kurslar"),
+        ]
     ],
     resize_keyboard=True
 )
+
